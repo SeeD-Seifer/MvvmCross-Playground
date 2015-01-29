@@ -2,6 +2,7 @@
 using Cirrious.MvvmCross.ViewModels;
 using Cirrious.MvvmCross.Plugins.Location;
 using System.Diagnostics;
+using Cirrious.CrossCore.Core;
 
 namespace Playground.ViewModels
 {
@@ -51,9 +52,9 @@ namespace Playground.ViewModels
 			locationWatcher.Start (new MvxLocationOptions (), OnLocationUpdated, OnLocationError);
 		}
 
-		private void OnPermissionChanged (MvxLocationPermission permission)
+		private void OnPermissionChanged (object sender, MvxValueEventArgs<MvxLocationPermission> args)
 		{
-			Permission = permission.ToString ();
+			Permission = args.Value.ToString ();
 		}
 
 		private void OnLocationUpdated (MvxGeoLocation location)

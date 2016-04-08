@@ -1,8 +1,8 @@
 ﻿using System;
-using Cirrious.MvvmCross.Droid.Platform;
 using Android.Content;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.CrossCore.IoC;
+using MvvmCross.Droid.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace Playground.Droid
 {

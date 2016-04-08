@@ -1,9 +1,9 @@
 ﻿using System;
-using Cirrious.MvvmCross.Touch.Views;
-using Playground.ViewModels;
-using Cirrious.MvvmCross.Binding.BindingContext;
 using UIKit;
 using CoreGraphics;
+using Playground.ViewModels;
+using MvvmCross.iOS.Views;
+using MvvmCross.Binding.BindingContext;
 
 namespace Playground.iOS.Views
 {

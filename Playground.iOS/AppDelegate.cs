@@ -4,9 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
-using Cirrious.MvvmCross.Touch.Platform;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.iOS.Platform;
+using MvvmCross.Platform;
+using MvvmCross.Core.ViewModels;
 
 namespace Playground.iOS
 {

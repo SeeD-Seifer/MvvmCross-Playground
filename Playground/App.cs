@@ -1,9 +1,10 @@
 ﻿using System;
-using Cirrious.CrossCore.IoC;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace Playground
 {
-	public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
+	public class App : MvxApplication
 	{
 		public override void Initialize()
 		{

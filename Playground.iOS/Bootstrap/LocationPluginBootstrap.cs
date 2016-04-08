@@ -1,10 +1,10 @@
 ﻿using System;
-using Cirrious.CrossCore.Plugins;
+using MvvmCross.Platform.Plugins;
 
 namespace Playground.iOS.Bootstrap
 {
 	public class LocationPluginBootstrap
-		: MvxLoaderPluginBootstrapAction<Cirrious.MvvmCross.Plugins.Location.PluginLoader, Cirrious.MvvmCross.Plugins.Location.Touch.Plugin>
+		: MvxLoaderPluginBootstrapAction<MvvmCross.Plugins.Location.PluginLoader, MvvmCross.Plugins.Location.iOS.Plugin>
 	{
 	}
 }

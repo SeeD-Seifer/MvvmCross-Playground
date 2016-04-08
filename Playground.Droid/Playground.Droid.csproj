@@ -14,7 +14,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>Playground.Droid</AssemblyName>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -42,29 +42,30 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Cirrious.MvvmCross.Plugins.Location.Droid">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\Cirrious.MvvmCross.Plugins.Location.Droid.dll</HintPath>
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="MvvmCross.Plugins.Location">
+      <HintPath>..\..\MvvmCross-Plugins\bin\Debug\Mvx\Portable\MvvmCross.Plugins.Location.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.CrossCore.Droid">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\Cirrious.CrossCore.Droid.dll</HintPath>
+    <Reference Include="MvvmCross.Plugins.Location.Droid">
+      <HintPath>..\..\MvvmCross-Plugins\bin\Debug\Mvx\Droid\MvvmCross.Plugins.Location.Droid.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Plugins.Location">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\Cirrious.MvvmCross.Plugins.Location.dll</HintPath>
+    <Reference Include="MvvmCross.Core">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.dll</HintPath>
+    <Reference Include="MvvmCross.Droid">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Droid.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Binding">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Binding.dll</HintPath>
+    <Reference Include="MvvmCross.Binding">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Binding.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.CrossCore">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.CrossCore.dll</HintPath>
+    <Reference Include="MvvmCross.Binding.Droid">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Binding.Droid.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Droid">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\Cirrious.MvvmCross.Droid.dll</HintPath>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Binding.Droid">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\Cirrious.MvvmCross.Binding.Droid.dll</HintPath>
+    <Reference Include="MvvmCross.Platform.Droid">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Droid\MvvmCross.Platform.Droid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -88,10 +89,8 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
-    <AndroidResource Include="Resources\values\MvxBindingAttributes.xml" />
     <AndroidResource Include="Resources\layout\FirstView.axml" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Playground\Playground.csproj">
       <Project>{33C212B0-12A7-41D1-930C-42E62AD1885B}</Project>
@@ -101,4 +100,5 @@
   <ItemGroup>
     <Folder Include="Bootstrap\" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

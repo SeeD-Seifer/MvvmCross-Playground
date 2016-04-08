@@ -97,29 +97,29 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Cirrious.MvvmCross.Plugins.Location.Touch">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Plugins.Location.Touch.dll</HintPath>
+    <Reference Include="MvvmCross.Plugins.Location">
+      <HintPath>..\..\MvvmCross-Plugins\bin\Debug\Mvx\Portable\MvvmCross.Plugins.Location.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.CrossCore">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.CrossCore.dll</HintPath>
+    <Reference Include="MvvmCross.Plugins.Location.iOS">
+      <HintPath>..\..\MvvmCross-Plugins\bin\Debug\Mvx\iOS\MvvmCross.Plugins.Location.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.CrossCore.Touch">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.CrossCore.Touch.dll</HintPath>
+    <Reference Include="MvvmCross.Core">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Binding.Touch">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Binding.Touch.dll</HintPath>
+    <Reference Include="MvvmCross.iOS">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\iOS\MvvmCross.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Binding">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Binding.dll</HintPath>
+    <Reference Include="MvvmCross.Binding">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Binding.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Plugins.Location">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Plugins.Location.dll</HintPath>
+    <Reference Include="MvvmCross.Binding.iOS">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\iOS\MvvmCross.Binding.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross.Touch">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Touch.dll</HintPath>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\MvvmCross.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.dll</HintPath>
+    <Reference Include="MvvmCross.Platform.iOS">
+      <HintPath>..\..\MvvmCross\bin\Debug\Mvx\iOS\MvvmCross.Platform.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

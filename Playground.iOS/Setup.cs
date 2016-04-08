@@ -1,12 +1,11 @@
 ﻿using System;
-using Cirrious.MvvmCross.Touch.Platform;
 using UIKit;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.Touch.Views.Presenters;
+using MvvmCross.iOS.Platform;
+using MvvmCross.Core.ViewModels;
 
 namespace Playground.iOS
 {
-	public class Setup : MvxTouchSetup
+	public class Setup : MvxIosSetup
 	{
 		public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
 			: base(applicationDelegate, window)

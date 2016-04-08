@@ -1,8 +1,9 @@
 ﻿using System;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.Plugins.Location;
 using System.Diagnostics;
-using Cirrious.CrossCore.Core;
+using MvvmCross.Core;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Core;
+using MvvmCross.Plugins.Location;
 
 namespace Playground.ViewModels
 {
